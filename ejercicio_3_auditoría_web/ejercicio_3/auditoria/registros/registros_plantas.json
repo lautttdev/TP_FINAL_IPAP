@@ -1,0 +1,6 @@
+[
+    {"planta": "Mendoza", "consumo_kwh": 1000},
+    {"planta": "San Juan", "consumo_kwh": 2000},
+    {"planta": "Cordoba", "consumo_kwh": 1500},
+    {"planta": "Buenos Aires", "consumo_kwh": 4000}
+]

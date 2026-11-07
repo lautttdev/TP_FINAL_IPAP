@@ -1,0 +1,20 @@
+Ejercicio 2 - Modelo de Productos, Excepciones y Persistencia (40 puntos)
+
+Para la división de equipamiento sustentable de EcoTech Solutions, se requiere un módulo de 
+software que gestione los productos del catálogo, impida inconsistencias en el inventario 
+mediante validaciones de negocio y garantice la persistencia del stock en disco.
+
+Punto A: Dominio del Catálogo y Reglas de Inventario: Construye la jerarquía orientada a
+ objetos para los productos ecológicos. Diseña una clase de excepción personalizada 
+ StockInvalidoError y aplícala dentro de la clase base DispositivoEcológico para impedir q
+ ue el stock tome valores negativos mediante encapsulamiento explícito.
+  Desarrolla la clase especializada PanelSolar, incorporando sus atributos específicos
+   mediante herencia y aplicando polimorfismo para personalizar la emisión de su ficha
+    técnica comercial.
+
+Punto B: Persistencia y Gestión del Catálogo: Implementa la clase GestorInventario
+ con el método guardar_catalogo_json(lista_dispositivos, ruta_archivo) 
+ capaz de serializar y almacenar en catalogo_ecotech.json las instancias
+  creadas en el Punto A. Incluye un bloque de prueba donde se verifique
+   la captura controlada de StockInvalidoError ante un intento de asignación de 
+   stock erróneo, finalizando con la exportación exitosa de los productos válidos al archivo JSON.

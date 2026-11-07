@@ -1,0 +1,32 @@
+[
+    {
+        "sensor_id": " SENSOR-007 ",
+        "temperatura": "19.8C",
+        "ubicacion": "Deposito Central"
+    },
+    {
+        "sensor_id": "SENSOR-008",
+        "temperatura": " 42.3 °C ",
+        "ubicacion": "Sector Industrial"
+    },
+    {
+        "sensor_id": " SENSOR-009",
+        "temperatura": "26.7",
+        "ubicacion": "Laboratorio"
+    },
+    {
+        "sensor_id": "SENSOR-010 ",
+        "temperatura": "  ",
+        "ubicacion": "Planta Baja"
+    },
+    {
+        "sensor_id": " SENSOR-011 ",
+        "temperatura": "33.1C",
+        "ubicacion": null
+    },
+    {
+        "sensor_id": "SENSOR-012",
+        "temperatura": "21.5 °C",
+        "ubicacion": "  "
+    }
+]

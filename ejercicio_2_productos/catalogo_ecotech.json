@@ -1,0 +1,16 @@
+[
+    {
+        "tipo": "Panel Solar",
+        "nombre": "Panel Solar 500W",
+        "potencia": 500,
+        "precio": 13000,
+        "stock": 10
+    },
+    {
+        "tipo": "Panel Solar",
+        "nombre": "Panel Solar 600W",
+        "potencia": 600,
+        "precio": 15000,
+        "stock": 10
+    }
+]
